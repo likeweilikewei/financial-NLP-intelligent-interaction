@@ -1,0 +1,14 @@
+api.py:提供服务接口
+api_redis.py:提供redis后端查询接口，主要是板块+指标选股接口
+corrector_test.py:提供纠错测试
+RedisManager.py：提供Redis单例封装
+robot.py：主文件，项目服务函数接口
+settings.py：配置文件
+
+文件夹：
+sync:提供更新语料、Redis更新最新指标服务
+model:gensim lsi训练模型持久化
+log:日志
+dicts:存放指标、板块、个股不标准到标准词的映射，方便jieba识别
+corrector:纠错模块
+corpus:语料库和jieba自定义字典
